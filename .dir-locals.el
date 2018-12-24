@@ -4,6 +4,6 @@
  (org-mode . ((mode . auto-fill)))
  (markdown-mode . ((mode . auto-fill)))
  ("doc"
-  . ((org-mode . ((org-hugo-auto-export-on-save . t)))))
+  . ((org-mode . ((org-hugo-auto-export-mode . t)))))
  ("test/site/content-org"
-  . ((org-mode . ((org-hugo-auto-export-on-save . t))))))
+  . ((org-mode . ((org-hugo-auto-export-mode . t))))))

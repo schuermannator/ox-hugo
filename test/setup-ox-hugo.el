@@ -1,4 +1,4 @@
-;; Time-stamp: <2018-11-01 00:37:59 kmodi>
+;; Time-stamp: <2018-12-24 11:45:16 kmodi>
 
 ;; Setup to export Org files to Hugo-compatible Markdown using
 ;; `ox-hugo' in an "emacs -Q" environment.
@@ -253,6 +253,8 @@ Emacs installation.  If Emacs is installed using
   ;; Force the locate to en_US for the tests.
   (set-locale-environment "en_US.UTF-8")
   (setenv "LANGUAGE" "en_US.UTF-8")
+
+  (put 'org-hugo-auto-export-mode 'safe-local-variable 'booleanp)
 
   ;; Set all local variables from .dir-locals.el, etc.
   (setq enable-local-variables :all)
